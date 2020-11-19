@@ -183,4 +183,30 @@
 
   /*End of Aside*/
 
+  /*Start of Footer*/
+  footer{
+    width: 100%;
+
+    background: rgb(247,198,181);
+    background: -moz-linear-gradient(90deg, rgba(247,198,181,1) 0%, rgba(226,165,205,1) 51%, rgba(172,213,235,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(247,198,181,1) 0%, rgba(226,165,205,1) 51%, rgba(172,213,235,1) 100%);
+    background: linear-gradient(90deg, rgba(247,198,181,1) 0%, rgba(226,165,205,1) 51%, rgba(172,213,235,1) 100%);
+  }
+  footer>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+    margin-top: 12px;
+  }
+  footer>ul>li{
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 4px #6B6B6B;
+
+    margin: 2.4rem 4rem;
+  }
+  /*End of Footer*/
+
 /*End of Body*/

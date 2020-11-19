@@ -55,8 +55,6 @@
 /*Start of Body*/
 
   /*Start of First Article*/
-  .first-article{
-  }
   h2{
     text-align: center;
     font-size: 2.5rem;
@@ -72,11 +70,11 @@
     display: flex;
     justify-content: space-around;
 
-    margin: 3rem;
+    margin: 2rem;
   }
 
   #top-img-container figure{
-    width: 25%;
+    width: 30%;
   }
   #bouquet-fig{
     background-color: #e2a5cd;
@@ -103,9 +101,86 @@
     font-family: sans-serif;
     font-weight: bold;
     text-transform: uppercase;
+    word-wrap: break-word;
 
-    margin-bottom: 1rem;
+    margin: 0px 1rem 1rem 1rem;
   }
   /*End of First Article*/
+
+  /*Start of Second Article Form*/
+
+  #second-article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  form{
+    background-color: #614c7d;
+    padding: 2rem;
+
+    font-family: sans-serif;
+  }
+
+  fieldset{
+    border-style: none;
+    margin: 1.5rem 0px;
+  }
+  legend{
+    color: #e8e8e8;
+    margin-bottom: .5rem;
+  }
+  #main_legend{
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+  }
+
+  label{
+    color: #e8e8e8;
+  }
+
+  input{
+    margin-top: .2rem;
+  }
+  #text-entry input{
+    width: 90%;
+    height: 1.75rem;
+    margin: .3rem;
+  }
+
+  textarea{
+    margin: .2rem;
+    width: 90%;
+  }
+  #submit{
+    font-size: 1.5rem;
+    color:  #614c7d;
+    border-radius: 5px;
+    background-color: white;
+    padding: .8rem 2rem;
+  }
+
+  /*End of Second Article Form*/
+
+  /*Start of Aside*/
+
+  aside{
+    border-style: solid;
+    border-width: thick;
+    border-color: #f7c6b5;
+  }
+
+  #aside-img-fig{
+    margin: 16px;
+  }
+
+  #aside-img{
+    width: 100%;
+  }
+
+  /*End of Aside*/
 
 /*End of Body*/

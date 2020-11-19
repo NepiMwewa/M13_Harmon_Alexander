@@ -38,17 +38,68 @@
       <section id="top-img-container">
         <figure class="top-img-figs">
           <img src="images/bouquet.jpeg" alt="a bride holding a bouquet" class="top-imgs">
-          <figcaption>A bride holding a bouquet</figcaption>
+          <figcaption class="top-img-figcaps">Bouquets</figcaption>
         </figure>
         <figure class="top-img-figs">
           <img src="images/arrangement.jpeg" alt="an arrangement of white and red flowers" class="top-imgs">
-          <figcaption>An arrangement of white and red flowers</figcaption>
+          <figcaption class="top-img-figcaps">Arrangements</figcaption>
         </figure>
         <figure class="top-img-figs">
           <img src="images/specialty.jpg" alt="a flowerly wrist band" class="top-imgs">
-          <figcaption>A flowerly wrist band</figcaption>
+          <figcaption class="top-img-figcaps">Special occassions</figcaption>
         </figure>
       </section>
     </article>
+
+    <article id="second-article">
+      <form>
+        <fieldset>
+          <legend>Contact Us</legend>
+          <fieldset>
+            <label for="first_name">First Name:</label><br>
+            <input type="text" id="first_name" name="first_name"><br>
+            <label for="last_name">Last Name:</label><br>
+            <input type="text" id="last_name" name="last_name"><br>
+
+            <label for="email"> Enter your email:</label><br>
+            <input type="email" id="email" name="email"><br>
+          </fieldset>
+
+          <fieldset>
+            <legend>Reason for contacting:</legend>
+            <input type="radio" id="question" name="contact-reason" value="question">
+            <label for="question">I Have A Question</label><br>
+            <input type="radio" id="order" name="contact-reason" value="order">
+            <label for="order">I'd Like To Order</label><br>
+            <input type="radio" id="problem" name="contact-reason" value="problem">
+            <label for="problem">I Have A Problem</label><br>
+          </fieldset>
+
+          <fieldset>
+            <legend>Message:</legend>
+            <label for="message"></label>
+            <textarea rows="8" cols="70" id="message"></textarea>
+          </fieldset>
+
+          <input id="submit" type="submit" value="Submit">
+
+        </fieldset>
+      </form>
+    </article>
+
+    <aside>
+      <figure id="aside-img-fig">
+        <img src="images/florist.jpeg" alt="a florist" id="aside-img">
+        <figcaption>a florist</figcaption>
+      </figure>
+    </aside>
+
+    <footer>
+      <ul>
+  		    <li>183-4, pungnab 1(il)-dong, songpa-gu, Seoul</li>
+  		    <li>(555)123-4567 | lorem@ipsum.com</li>
+  		    <li>This is an example site for educational purposes only.</li>
+      </ul>
+    </footer>
   </body>
 </html>

@@ -19,16 +19,18 @@
   h1{
     text-align: center;
     font-size: 4rem;
+    font-family: monospace;
+    text-transform: uppercase;
     margin: 1rem;
 
     color: #614c7d;
   }
 
   nav{
-    background: rgb(255,197,161);
-  background: -moz-linear-gradient(90deg, rgba(255,197,161,1) 0%, rgba(222,148,197,1) 50%, rgba(164,211,235,1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(255,197,161,1) 0%, rgba(222,148,197,1) 50%, rgba(164,211,235,1) 100%);
-  background: linear-gradient(90deg, rgba(255,197,161,1) 0%, rgba(222,148,197,1) 50%, rgba(164,211,235,1) 100%);
+    background: rgb(247,198,181);
+    background: -moz-linear-gradient(90deg, rgba(247,198,181,1) 0%, rgba(226,165,205,1) 51%, rgba(172,213,235,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(247,198,181,1) 0%, rgba(226,165,205,1) 51%, rgba(172,213,235,1) 100%);
+    background: linear-gradient(90deg, rgba(247,198,181,1) 0%, rgba(226,165,205,1) 51%, rgba(172,213,235,1) 100%);
   }
 
   nav ul {
@@ -42,8 +44,68 @@
   }
   nav a {
     padding: 1rem;
-
+    font-size: 1.3rem;
+    font-family: sans-serif;
     color: white;
+    text-shadow: 1px 1px 4px #6B6B6B;
     text-decoration: none;
   }
 /*End of navigation*/
+
+/*Start of Body*/
+
+  /*Start of First Article*/
+  .first-article{
+  }
+  h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1rem;
+
+    color: #614c7d;
+  }
+  .first-article p{
+    margin: 1rem 2rem;
+  }
+
+  #top-img-container{
+    display: flex;
+    justify-content: space-around;
+
+    margin: 3rem;
+  }
+
+  #top-img-container figure{
+    width: 25%;
+  }
+  #bouquet-fig{
+    background-color: #e2a5cd;
+  }
+  #arrangement-fig{
+    background-color: #acd5eb;
+  }
+  #specialty-fig{
+    background-color: #f7c6b5;
+  }
+
+  .top-imgs{
+    display: block;
+    width: 75%;
+    margin: 2rem auto .5rem auto;
+  }
+  #top-img-container figcaption{
+    display: block;
+
+    color: white;
+    text-shadow: 1px 1px 4px #6B6B6B;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-bottom: 1rem;
+  }
+  /*End of First Article*/
+
+/*End of Body*/

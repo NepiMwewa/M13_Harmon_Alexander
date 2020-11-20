@@ -205,8 +205,14 @@
     color: white;
     text-shadow: 1px 1px 4px #6B6B6B;
 
-    margin: 2.4rem 4rem;
+    width: 25%;
+    word-wrap: break-word;
+
+    margin: 2.4rem 0rem;
   }
   /*End of Footer*/
 
 /*End of Body*/
+
+
+/*desktop*/

@@ -18,7 +18,7 @@
 
   h1{
     text-align: center;
-    font-size: 4rem;
+    font-size: 5rem;
     font-family: monospace;
     text-transform: uppercase;
     margin: 1rem;
@@ -39,12 +39,12 @@
 
   }
   nav li{
-    padding: 1rem;
+    padding: 2rem;
     list-style: none;
   }
   nav a {
-    padding: 1rem;
-    font-size: 1.3rem;
+    padding: 2rem;
+    font-size: 2.5rem;
     font-family: sans-serif;
     color: white;
     text-shadow: 1px 1px 4px #6B6B6B;
@@ -69,12 +69,13 @@
   #top-img-container{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 
     margin: 2rem;
   }
 
   #top-img-container figure{
-    width: 30%;
+    width: 70%;
   }
   #bouquet-fig{
     background-color: #e2a5cd;
@@ -97,7 +98,7 @@
     color: white;
     text-shadow: 1px 1px 4px #6B6B6B;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-family: sans-serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -130,33 +131,38 @@
   legend{
     color: #e8e8e8;
     margin-bottom: .5rem;
+    font-size: 2rem;
   }
   #main_legend{
     text-align: center;
     color: white;
-    font-size: 1.8rem;
+    font-size: 3rem;
     text-transform: uppercase;
   }
 
   label{
     color: #e8e8e8;
+    font-size: 2rem;
   }
 
   input{
-    margin-top: .2rem;
+    margin-top: 1rem;
+    font-size: 2rem;
   }
   #text-entry input{
     width: 90%;
-    height: 1.75rem;
-    margin: .3rem;
+    height: 3rem;
+    margin: 1rem;
   }
 
   textarea{
     margin: .2rem;
     width: 90%;
+    height: 14rem;
+    font-size: 2rem;
   }
   #submit{
-    font-size: 1.5rem;
+    font-size: 3rem;
     color:  #614c7d;
     border-radius: 5px;
     background-color: white;
@@ -195,17 +201,18 @@
   footer>ul{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     list-style-type: none;
 
     margin-top: 12px;
   }
   footer>ul>li{
-    font-size: 1.3rem;
+    font-size: 2rem;
     text-align: center;
     color: white;
     text-shadow: 1px 1px 4px #6B6B6B;
 
-    width: 25%;
+    width: 75%;
     word-wrap: break-word;
 
     margin: 2.4rem 0rem;
@@ -214,5 +221,65 @@
 
 /*End of Body*/
 
+/*desktop version*/
+@media (min-width: 1024px){
+  h1{
+    font-size: 4rem;
+  }
+  nav a{
+    font-size: 1.3rem;
+  }
 
-/*desktop*/
+  h2{
+    font-size: 2.5rem;
+  }
+  #top-img-container{
+    display: flex;
+    justify-content: space-around;
+
+    margin: 2rem;
+  }
+
+  #top-img-container figure{
+    width: 30%;
+  }
+
+  fieldset{
+    margin-top: 1rem;
+  }
+  legend{
+    font-size: 1rem;
+    margin-bottom: .2rem;
+  }
+
+  label{
+    font-size: 1rem;
+    margin: 0px;
+  }
+
+  input{
+    font-size: 1.4rem;
+    margin: 0px;
+  }
+  #text-entry input{
+    height: 2rem;
+  }
+
+  #top-img-container figcaption{
+    font-size: 1.2rem;
+  }
+  #main_legend{
+    font-size: 1.8rem;
+  }
+  textarea{
+    height: 5rem;
+    font-size: 1rem;
+  }
+  #submit{
+    font-size: 1.5rem;
+  }
+  footer>ul>li{
+    font-size: 1.3rem;
+    width: 25%;
+  }
+}
